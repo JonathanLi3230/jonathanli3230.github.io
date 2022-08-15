@@ -15,8 +15,16 @@
     }
 
     #Philata {
-        background-color:#0431B4;
-        margin:0;    
+        background-color: #0431B4;
+        list-style-type: none;
+        margin: 0;
+        padding: 20px;
+        font-family: 'trebuchet MS';
+        display:flex;
+        gap:1em;
+        color:#ffffff;
+        justify-content: right;
+        align-items: center;
     }
 
 
@@ -30,13 +38,13 @@
     .title {
         background-color: #0431B4;
         color:#ffffff;
-        margin:10px;
+        margin:0px;
     }
 
     footer {
         background-color: #595859;
         color: #ffffff;
-        margin:10px;
+        margin:0px;
         font-family: 'trebuchet MS';
 
     }
@@ -55,14 +63,40 @@
 
     }
 
+    ul {
+        background-color: #0431B4;
+        list-style-type: none;
+        margin: 0;
+        padding: 20px;
+        font-family: 'trebuchet MS';
+        display:flex;
+        gap:1em;
+        color:#ffffff;
+        justify-content: left;
+        align-items: center;
+        
+    }
+    
+    ul li:hover {
+        background-color: #4164ff;
+        transition: 0.3s ease;
+
+    }
+
+
+
     </style>
     </head>
     <body>
-    
-    <div id="Philata" class="top">
+    <ul>
+        
         <h1>Philata <small><small><small><em>bringing stamp collecting into the modern era</em></small></small></small></h1>
-    </div>
-
+        <div id="Philata">
+        <li><a href="default.asp" style=" color: #ffffff; text-decoration: none">Home</a></li>
+        <li><a href="contact.asp" style=" color: #ffffff; text-decoration: none">Contact</a></li>
+        <li><a href="about.asp" style=" color: #ffffff; text-decoration: none">About</a></li>
+        </div>
+    </ul>
 </header>
 
 <main>
